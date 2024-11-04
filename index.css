@@ -1,0 +1,36 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+    margin: 20px auto;
+    width: 414px;
+    border: 2px solid #333;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.highlight {
+    background-color: rgba(255, 255, 0, 0.39) !important;
+}
+.start {
+    background-color: rgba(0, 128, 0, 0.308) !important;
+}
+.end {
+    background-color: rgba(255, 0, 0, 0.377) !important;
+}
+button {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
